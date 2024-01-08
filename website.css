@@ -186,14 +186,37 @@
     margin-top: -10px;
 
 }
-.rect{
-    margin-top: -300px;
-    margin-left: 110px;
+.bonus{
     position: relative;
+}
+.rect{
+    margin-top: 450px;
+    margin-left: 110px;
+    position: absolute;
 
+}
+.girl{
+    margin-left: -430px;
+    position: absolute;
+    margin-top: -430px;
+}
+.discount{
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -350px;
 }
 .box{
     position: absolute;
-    margin-top: 200px;
+    margin-top: 10px;
+    margin-left: 120px;
     
+}
+.picture{
+    margin-top: 800px;
+}
+.column1{
+    display: flex;
+    margin: 0px 120px 0px 160px;
+    gap: 20px;
+    justify-content: space-around;
 }
