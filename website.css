@@ -262,6 +262,7 @@
     background: rgba(255, 0, 0, 0.05);
     width: 1320px;
     height: 500px;
+    position: relative;
     margin-top: 120px;
     margin-left: 100px;
 }
@@ -291,8 +292,9 @@
 
 .footer {
     background: #070211;
-    width: 1550px;
+    width: 1510px;
     height: 600px;
+    position: relative;
 
 }
 
@@ -317,12 +319,14 @@
     margin-top: -460px;
     margin-left: 1000px;
 }
+
 .websit {
     position: absolute;
     margin-top: -430px;
     margin-left: 1000px;
 }
-.cal{
+
+.cal {
     position: absolute;
     color: white;
     font-size: 24px;
@@ -330,24 +334,58 @@
     margin-left: 1050px;
 
 }
-.site{
+
+.site {
     position: absolute;
     color: white;
     font-size: 24px;
     margin-top: -435px;
     margin-left: 1050px;
 }
-.unsub{
+
+.unsub {
     position: absolute;
     color: white;
     font-size: 24px;
     margin-top: -130px;
     margin-left: 1230px;
 }
-.logo{
+
+.logo {
     position: absolute;
     margin-top: -330px;
     margin-left: 600px;
-    
+}
 
+.input-sec {
+    margin-top: -100px;
+    margin-left: 580px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 200px;
+    border-radius: 25px 0 0 25px;
+    position: absolute;
+}
+
+.input-two {
+    margin-top: -100px;
+    margin-left: 880px;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    padding-right: 20px;
+
+
+}
+
+.horizontal-line {
+    border-top: 5px solid white;
+    margin: 10px 0;
 }
